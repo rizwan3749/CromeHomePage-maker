@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Custom New Tab Redirect",
+  "version": "1.0",
+  "description": "Redirects new tabs to a user-defined website.",
+  "permissions": ["tabs", "storage"],
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
+  }
+}
